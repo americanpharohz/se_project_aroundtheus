@@ -10,10 +10,11 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 47.25px;
+  margin-top: 36.25px;
 }
 
 .profile__title {
-  max-width: 373px;
+  max-width: 400px;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
@@ -24,7 +25,7 @@
 }
 
 .profile__subtitle {
-  max-width: 415px;
+  max-width: 240px;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -53,7 +54,7 @@
   border: 2px solid #fff;
   flex-shrink: 0;
   background-color: transparent;
-  background-image: url(../images/Plus_logo.png);
+  background-image: url(../images/plus_logo_svg.svg);
   background-repeat: no-repeat;
   background-position: center;
   padding: 0;
@@ -71,7 +72,7 @@
   height: 24px;
   border-color: #fff;
   background-color: transparent;
-  background-image: url(../images/pen_logo.png);
+  background-image: url(../images/pen_logo_svg.svg);
   background-repeat: no-repeat;
   background-position: center;
   padding: 0;
@@ -86,9 +87,6 @@
 @media screen and (max-width: 900px) {
   .profile__title {
     text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     max-width: 230px;
   }
   .profile {
@@ -96,9 +94,6 @@
   }
   .profile__subtitle {
     text-align: left;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     max-width: 230px;
   }
 
@@ -106,6 +101,8 @@
     margin-right: 20px;
     width: 24px;
     height: 24px;
+    border-width: 1px;
+    border-style: solid;
   }
 }
 
@@ -119,11 +116,9 @@
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 36px;
-    max-width: 196px;
+    text-align: center;
+    max-width: 250px;
     padding: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
   .profile__title {
     font-size: 22px;
@@ -131,9 +126,6 @@
     text-align: center;
     padding: 0;
     max-width: 196px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   .profile__description {
