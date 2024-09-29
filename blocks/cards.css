@@ -12,7 +12,6 @@
   object-fit: cover;
   width: 282px;
   height: 282px;
-  border-radius: 10px;
 }
 
 .cards__content {
@@ -21,6 +20,7 @@
   border-radius: 10px;
   overflow: hidden;
   padding: initial;
+  max-width: 282px;
 }
 
 .cards__footer {
